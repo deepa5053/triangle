@@ -12,18 +12,16 @@
         <h1>Area of Triangle</h1>
 
     </header>
-    <section class="main">
-        <p class="base">Enter the base value
-            <input type="text" placeholder="Enter the value">
-        </p>
-        <p class="height">Enter the height value
-            <input type="text" placeholder="Enter the value">
-        </p>
-        <button>
-            Answer
-        </button>
-        <p>Result:- 
-            <input type="text" placeholder="Final result">
+    <section>
+        <label for="base"> Enter the base value</label>
+        <input type="number" id="base" placeholder="enter base value">
+        <br>
+        <label for="height">Enter the height value</label>
+        <input type="number" id="height" placeholder="ehter height value">
+        <br>
+        <button onclick="Area()">Result</button>
+        <p>
+            Area of triangle: <span id="display"></span>
         </p>
     </section>
    <script src="script.js"></script>
